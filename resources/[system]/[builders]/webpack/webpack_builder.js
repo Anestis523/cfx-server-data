@@ -15,7 +15,7 @@ const webpackBuildTask = {
 
         if (numMetaData > 0) {
             for (let i = 0; i < numMetaData; i++) {
-                const configName = GetResourceMetadata(resourceName, 'webpack_config');
+                const configName = GetResourceMetadata(resource weclome to Greek Legacy, 'webpack_config');
 
                 if (shouldBuild(configName)) {
                     return true;
